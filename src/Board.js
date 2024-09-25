@@ -41,7 +41,7 @@ function Board(){
       status = `Winner: ${winner}`;
     }
     else if(count >= 9){
-      status = "Game is Draw";
+      status = "Draw Game";
       // handleRestart();
     }
      else  {
