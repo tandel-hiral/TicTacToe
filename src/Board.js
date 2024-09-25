@@ -108,7 +108,6 @@ function Board(){
       <div className="status">{status}</div>
       
       <button className="restart" onClick={handleRestart}>Restart Game!</button>
-      <div>{count}</div>
      </div>
      
     )
